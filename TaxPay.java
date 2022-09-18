@@ -20,9 +20,9 @@ public class TaxPay {
             if (money <= 16000){
                 tax = money * 0.1;
             } else if (money > 16000 && money <= 64000) {
-                tax = 800 + (money * 0.15);
+                tax = 1600 + (money * 0.15);
             } else if (money > 64000) {
-                tax = 4400 + (money * 0.25);
+                tax = 8800 + (money * 0.25);
             }
         }
     }
